@@ -1,5 +1,17 @@
 title: PipeCash
-description: An Automation Framework with Bitcoin in Mind
-show_downloads: true
+description: Automation with Bitcoin in Mind
 
+lang: "en-US"
 theme: jekyll-theme-slate
+
+google_analytics:
+
+show_downloads: true
+github:
+  owner_url: "https://github.com/Siko91"
+  owner_name: "Aleksandar Dinkov"
+  is_project_page: true
+  project_tagline: "Money Flow Automation Framework"
+  repository_url: "https://github.com/pipe-cash/pipecash"
+  zip_url: "https://github.com/Pipe-Cash/pipecash/releases"
+  pip_url: "https://pypi.org/project/pipecash/"
