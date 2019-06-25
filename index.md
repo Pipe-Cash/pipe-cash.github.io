@@ -2,122 +2,77 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**PipeCash** is an automation framework designed specifically to handle automation for **Bitcoin** and other types of money.
 
-[Link to another page](./another-page.html).
+**Bitcoin** is the future of money - a digital peer-to-peer cash system that is revolutionizing not only payments, but the internet itself. Read the [Bitcoin Whitepaper](/assets/pdf/bitcoin.pdf).
 
-There should be whitespace between paragraphs.
+**PipeCash** lets you easily tap into the enormous potential of the blockchain.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+![BSV & PipeCash](/assets/images/bsv-pipecash-1.png)
 
-# Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# AUTOMATE WITH EASE
+> BECAUSE TIME IS PRECIOUS
 
-## Header 2
+PipeCash will not waste your time.
+Automate your Bitcoin related tasks without writing any code.
+PipeCash will run locally on your machine, giving you full control of your private keys and passwords.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+**Money automation has never been this easy!**
 
-### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+#### Easy to Deploy
+> A PipeCash configuration is just a text file. Deployment of a PipeCash node can be as simple as pressing a button.
+
+#### Easy to Configure
+> A visual configuration tool makes it possible for non-programmers to design and run their own automated system.
+
+#### Highly Customizable
+> Different plugins extend the system to enable it to handle all types of events and actions. It is easy to extend the system with new plugins.
+
+#### A new Perspective
+> With Bitcoin as programmable money, you have the ability to fully control your funds. The sky is the limit.
+
+
+
+# Quick Start
+
+Dowlnload PipeCash and the default collection of agents and wallets:
+
+```shell
+pip install --upgrade pipecash pipecashagents pipecashwallets
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+Run a scenario:
+
+```shell
+pipecash -s /path/to/scenario.json
 ```
 
-#### Header 4
+If the scenario needs secret variables, generate them:
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```shell
+pipecash -s /path/to/scenario.json --createSecretsFile > secrets.json
 ```
 
+Once the file is generated, open it and fill the secret variables. To run the scenario together with the secrets, use:
+
+```shell
+pipecash -s /path/to/scenario.json --secretsPath /path/to/secrets.json
 ```
-The final element.
-```
+
+
+
+# License
+
+PipeCash is not friendly towards all cryptocurrencies.
+While it is designed for integrations with Bitcoin, the regular PipeCash license strictly forbids any integration with other cryptocurrencies.
+
+PipeCash will only integrate with **Bitcoin** and **Bitcoin SV**.
+
+PipeCash will always respect both **proof of work** and the **original design** of Bitcoin.
+For more information [read the license](https://github.com/Pipe-Cash/pipecash/blob/master/LICENSE).
+
+# Subscribe
+
+{%- include subscribe-form.html -%}

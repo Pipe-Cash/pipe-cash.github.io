@@ -1,6 +1,9 @@
 title: PipeCash
 description: Automation with Bitcoin in Mind
 
+show_logo: true
+logo_url: "/assets/images/logo.png"
+
 lang: "en-US"
 theme: jekyll-theme-slate
 
